@@ -1,0 +1,16 @@
+select * from TELECOM_CUSTOMER;
+
+SELECT "Customer Name" FROM TELECOM_CUSTOMER
+WHERE PRODUCT = 'Digital Subscriber Line';
+
+SELECT CUSTOMERID,"Customer Name" FROM TELECOM_CUSTOMER
+WHERE "Customer Name" LIKE 'sa%';
+
+SELECT CUSTOMERID,"Customer Name" 
+FROM TELECOM_CUSTOMER WHERE "Service Segment" = 'Gold';
+
+SELECT PRODUCT,count(*) AS Customers_Count
+FROM TELECOM_CUSTOMER GROUP BY PRODUCT;
+ 
+SELECT "Customer Name" FROM TELECOM_CUSTOMER
+WHERE ZONE = 'Mountain' ;
