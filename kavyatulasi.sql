@@ -7,7 +7,7 @@ select CUSTOMERID,"Customer Name" from TELECOM_CUSTOMER where "Customer Name" li
 -- (3) Query to list customer id's and customer names belonging to gold customer segment 
 select CUSTOMERID,"Customer Name" from TELECOM_CUSTOMER where "Customer Segment" = 'Gold';
 -- The output for above query gives as "no rows selected" because the Gold Segment is not present in the Customer Segment Column
--- as the Gold segment is provided in service segment
+-- as the Gold segment is provided in service segment.
 
 -- (3) Query to list  customer id's and customer names belonging to gold service segment 
 select CUSTOMERID,"Customer Name" from TELECOM_CUSTOMER where "Service Segment" = 'Gold' ;
