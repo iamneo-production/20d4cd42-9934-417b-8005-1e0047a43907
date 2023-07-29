@@ -1,34 +1,32 @@
-/*TELECOM SERVICE PROVIDER*/
+--TELECOM SERVICE PROVIDER 
 
-/*Retrieving the whole data from the telecom_customer_table*/
-select * from  TELECOM_CUSTOMER;
+--query 1
+SELECT "Customer Name"
+FROM TELECOM_CUSTOMER
+WHERE PRODUCT = 'Digital Subscriber Line';
 
-/*(1) Query to list customer names who are using product Digital Subscriber Line*/
-select "Customer Name"
-from TELECOM_CUSTOMER
-where product='Digital Subscriber Line';
+--query 2
+SELECT CUSTOMERID, "Customer Name"
+FROM TELECOM_CUSTOMER
+WHERE "Customer Name" LIKE 'SA%';
 
-/*(2) Query to list customer id, customer name whose name starts with 'sa'*/
-select CUSTOMERID, "Customer Name"
-from TELECOM_CUSTOMER
-where "Customer Name" like 'sa%';
+--query 3 (not working)
+SELECT CUSTOMERID, "Customer Name"
+FROM TELECOM_CUSTOMER
+WHERE "Customer Segment" = 'Gold';
+-- The above query returned no rows selected because the customer segment col has no 'Gold' value 
 
-/*(3) Query to list customer id and names for customers belonging to the gold customer segment*/
-select CUSTOMERID, "Customer Name"
-from TELECOM_CUSTOMER
-where "Customer Segment"='Gold';
-/*The output of above query is "no rows selected" because "Gold segment" is not present in field customer segment*/
-/*As the "Gold segment" is provided in service segment field*/
-select CUSTOMERID, "Customer Name"
-from TELECOM_CUSTOMER
-where "Service Segment"='Gold';
+--query 3 (working)
+SELECT CUSTOMERID, "Customer Name"
+FROM TELECOM_CUSTOMER
+WHERE "Service Segment" = 'Gold';
 
-/*(4) Query to count the customer list product-wise*/
-select product, count(*) as customer_count
-from TELECOM_CUSTOMER
-group by product;
+--query 4
+SELECT PRODUCT, COUNT(*) AS CUSTOMER_COUNT
+FROM TELECOM_CUSTOMER
+GROUP BY PRODUCT;
 
-/*(5) Query to list the customer name of zone 'Mountain'*/
-select "Customer Name"
-from TELECOM_CUSTOMER
-where zone='Mountain';
+--query 5
+SELECT "Customer Name"
+FROM TELECOM_CUSTOMER
+WHERE Zone = 'Mountain';
