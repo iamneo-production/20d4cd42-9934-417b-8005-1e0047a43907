@@ -35,8 +35,3 @@ GROUP BY PRODUCT;
 SELECT "Customer Name"
 FROM TELECOM_CUSTOMER
 WHERE "ZONE"='Mountain';
-
-
-
-
-
