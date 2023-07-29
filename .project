@@ -7,13 +7,19 @@
 	<buildSpec>
 		<buildCommand>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> Oracle-Workspace-KamasaniKaveri
 			<name>org.eclipse.jdt.core.javabuilder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
 		<buildCommand>
+<<<<<<< HEAD
 >>>>>>> ee7763d74d65fcb44eeebb4d61088172147c4b9d
+=======
+>>>>>>> Oracle-Workspace-KamasaniKaveri
 			<name>org.eclipse.m2e.core.maven2Builder</name>
 			<arguments>
 			</arguments>
@@ -21,13 +27,18 @@
 	</buildSpec>
 	<natures>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		<nature>org.eclipse.jdt.core.javanature</nature>
 >>>>>>> ee7763d74d65fcb44eeebb4d61088172147c4b9d
+=======
+		<nature>org.eclipse.jdt.core.javanature</nature>
+>>>>>>> Oracle-Workspace-KamasaniKaveri
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 	</natures>
 	<filteredResources>
 		<filter>
+<<<<<<< HEAD
 <<<<<<< HEAD
 			<id>1689054087473</id>
 =======
@@ -77,6 +88,9 @@
 >>>>>>> bdfbe978147f8c5586c41cf9ce50303b8dfede28
 >>>>>>> a0bb0f73723ec9646cbf7588e955f4f5a37ecedd
 >>>>>>> ee7763d74d65fcb44eeebb4d61088172147c4b9d
+=======
+			<id>1689054087473</id>
+>>>>>>> Oracle-Workspace-KamasaniKaveri
 			<name></name>
 			<type>30</type>
 			<matcher>
