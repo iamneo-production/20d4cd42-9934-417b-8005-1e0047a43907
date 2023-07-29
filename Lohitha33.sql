@@ -16,7 +16,7 @@ FROM TELECOM_CUSTOMER
 WHERE "Customer Segment" = 'Gold';
 -- The above query returned no rows selected because the customer segment col has no 'Gold' value 
 
---query 3 (working)
+--query 3 (working with this query)
 SELECT CUSTOMERID, "Customer Name"
 FROM TELECOM_CUSTOMER
 WHERE "Service Segment" = 'Gold';
