@@ -27,4 +27,4 @@ GROUP BY PRODUCT;
 --query 5
 SELECT "Customer Name"
 FROM TELECOM_CUSTOMER
-WHERE Zone = 'Mountain'
+WHERE Zone = 'Mountain';
