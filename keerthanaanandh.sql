@@ -1,8 +1,4 @@
 --TELECOM SERVICE PROVIDER 
-
---Retrieving all data from table
-SELECT * FROM TELECOM_CUSTOMER;
-
 --1. SQL Query to list customer names who are using product 'Digital subscriber line'
 SELECT "Customer Name" 
 FROM TELECOM_CUSTOMER
