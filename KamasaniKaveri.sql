@@ -1,4 +1,4 @@
-KAMASANI KAVERI.SQL
+--KAMASANI KAVERI
 --TELECOM SERVICE PROVIDER 
 
 --(1) SQL Query to list customer names who are using product 'Digital Subscriber Line'
