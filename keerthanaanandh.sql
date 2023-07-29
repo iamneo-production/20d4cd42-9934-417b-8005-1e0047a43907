@@ -1,4 +1,4 @@
---TELECOM SERVICE PROVIDER 
+--TELECOM SERVICE PROVIDER 1
 --1. SQL Query to list customer names who are using product 'Digital subscriber line'
 SELECT "Customer Name" 
 FROM TELECOM_CUSTOMER
