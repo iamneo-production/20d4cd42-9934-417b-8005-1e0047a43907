@@ -1,8 +1,5 @@
 --TELECOM_SERVICE_PROVIDER QUERIES
 
---Retrieving all records from TELECOM_CUSTOMER
-SELECT * FROM TELECOM_CUSTOMER;
-
 --1. Query to find the list of customer names who are using the product "Digital Subscriber Line"
 SELECT "Customer Name"
 FROM TELECOM_CUSTOMER
