@@ -6,7 +6,7 @@ FROM TELECOM_CUSTOMER
 WHERE PRODUCT='Digital Subscriber Line';
 
 
---2. Query to list a Customer id, Customer name whose name starts with 'sa'
+--2. Query to list a Customer id, Customer name whose name starts with 'sa'.
 SELECT CUSTOMERID, "Customer Name"
 FROM TELECOM_CUSTOMER
 WHERE "Customer Name" LIKE 'SA%';
