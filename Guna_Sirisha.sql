@@ -23,7 +23,6 @@
     SELECT  CUSTOMERID,"Customer Name"
     from TELECOM_CUSTOMER
     WHERE "Service Segment"='Gold';
-
 --4. Count the customer list product-wise?
   
     SELECT PRODUCT, COUNT(*)
