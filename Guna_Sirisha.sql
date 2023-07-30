@@ -11,6 +11,7 @@
     WHERE "Customer Name" LIKE 'sa%';
 
 --3. List the customer id, customer name of the gold customer segment?
+
 --Here the the customer segment column value is consumer or  business . 
 --  Hence the output will be no rows selected
    
