@@ -12,7 +12,7 @@ FROM TELECOM_CUSTOMER
 WHERE "Customer Name" LIKE 'SA%';
 
 
---3. Query to list the Customer IDs and names of customers  belonging to "Gold Customer Segment"
+--3. Query to list the Customer IDs and names of customers  belonging to "Gold Customer Segment".
 SELECT CUSTOMERID, "Customer Name"
 FROM TELECOM_CUSTOMER
 WHERE "Customer Segment"='Gold';
