@@ -16,7 +16,11 @@ WHERE "Customer Name" LIKE 'SA%';
 SELECT CUSTOMERID, "Customer Name"
 FROM TELECOM_CUSTOMER
 WHERE "Customer Segment"='Gold';
+<<<<<<< HEAD
 --The output for the above query is "No rows selected* because Gold is presented in service segment not customer segment.
+=======
+--The output for the above query is "No rows selected* because Gold is presented in service segment not customer segment*/
+>>>>>>> 8732201faadb2da21644e5d499926b8504efd64e
 
 --Gold segment is presented in Service Segment field.
 SELECT CUSTOMERID, "Customer Name"
