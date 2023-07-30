@@ -24,7 +24,7 @@ FROM TELECOM_CUSTOMER
 WHERE "Service Segment"='Gold';
 
 
---4. Query to count the customer list product wise
+--4. Query to count the customer list product wise.
 SELECT PRODUCT, COUNT(*) AS CUSTOMER_COUNT
 FROM TELECOM_CUSTOMER
 GROUP BY PRODUCT;
