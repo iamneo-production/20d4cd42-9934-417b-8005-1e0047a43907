@@ -1,4 +1,4 @@
--- (1) Query for displaying customer Names who are using the product Digital subscriber Line 
+-- (1) Query for displaying customer Names who are using the product Digital subscriber Line.
 select "Customer Name" from TELECOM_CUSTOMER where PRODUCT = 'Digital Subscriber Line' ;
 
 -- (2) Query to list Customer id's, Customer Names whose name starts with 'sa' .
