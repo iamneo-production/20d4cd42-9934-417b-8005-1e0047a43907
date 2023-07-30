@@ -1,4 +1,4 @@
---TELECOM_SERVICE_PROVIDER--
+--TELECOM_SERVICE_PROVIDER
 
 -- (1) Query to list of customer names who are using the product Digital Subscriber Line */
 SELECT "Customer Name"
