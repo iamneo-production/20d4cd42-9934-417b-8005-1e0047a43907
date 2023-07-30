@@ -16,6 +16,7 @@
     WHERE "Customer Segment"='Gold';
 
 --The gold is related to service segment hence used service segment
+
     SELECT  CUSTOMERID,"Customer Name"
     from TELECOM_CUSTOMER
     WHERE "Service Segment"='Gold';
